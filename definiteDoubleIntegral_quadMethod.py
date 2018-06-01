@@ -24,9 +24,6 @@ def func_h(x):
     return 1 - np.abs(x)
 
 
-h = 1
-a = np.sqrt(2)
-
 result = dblquad(func_f, -1, 1, func_g, func_h)
 print('\n\nЗначение интеграла (объем пирамиды):', result[0], '\nАбсолютная погрешность:', result[1])
 
