@@ -30,8 +30,8 @@ def slae(A, b):
 
 
 # Input:
-A = np.array([[2, 1, 1, 1], [1, 1, 1, 1], [1, 1, 2, 1], [1, 1, 1, 2]])
-b = np.array([-2, -4, -1, -2])
+A = np.array([[2, 1, 1, 1], [1, 1, 1, 1], [1, 1, 2, 1], [1, 1, 1, 2]], float)
+b = np.array([-2, -4, -1, -2], float)
 
 # Solve:
 x = slae(A, b)
