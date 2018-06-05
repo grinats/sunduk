@@ -34,7 +34,7 @@ def slae(A, b):
 #  b = np.array([-2, -4, -1, -2], dtype=float)
 
 #  Random matrix testing.
-k = 5  # Matrix elements values are within the given interval: -k <= x < k
+k = 1  # Matrix elements values are Gauss distributed within the given interval: -k <= x < k
 n = 3  # Dimension of matrix |A|(n x n) and vector b(n).
 A = np.random.uniform(-k, k, size=(n, n))
 b = np.random.uniform(-k, k, size=(n,))
