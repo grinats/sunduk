@@ -14,16 +14,11 @@ def f(x):
     #return np.exp(-x)
 
 
-def get_i():
-    return -np.cos(-np.pi) + np.cos(np.pi)
-
-
 a, b = -np.pi, np.pi  # integral limits
 result = quad(f, a, b, full_output=True)
 # Аргументы quad(): ссылка на функцию f, нижний (a) и верхний (b) пределы интегрирования.
 # При задании опции full_output=True функция quad возвращает словарь с дополнительной информацией.
 print('\n\nЗначение интеграла:', result[0], '\nАбсолютная погрешность:', result[1])
-print('\nReference value:', get_i())
 # print('\nДоп параметры:\n', result)
 
 
