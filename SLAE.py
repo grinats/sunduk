@@ -16,7 +16,7 @@ def slae(A, b):
 
     def squared(m, n):
         """
-            Check if matrix squared and has non zero dimension.
+            Check if matrix is squared and has non zero dimension.
             Parameters:
                 m - Coefficient matrix.
                 n - Ordinate or “dependent variable” values.
